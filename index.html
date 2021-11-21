@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Football | Main</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href=" css/fontawesome-all.min.css">
+        <link rel="stylesheet" href=" css/slick.css">
+        <link rel="stylesheet" href=" css/themify-icons.css">
+        <link rel="stylesheet" href=" css/style.css">
+    </head>
+    <body>
+
+        <header id="header-sticky" class="header transparent-header pt-70 pl-65 pr-65">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-3">
+                        <div class="header__logo">
+                            <a href="index-3.html"><img src=" img/logo/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-9">
+                        <div class="header__menu main-menu text-center">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                                    <span class="navbar-icon"></span>
+                                    <span class="navbar-icon"></span>
+                                    <span class="navbar-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>		
+		
+        <main>           
+            <section id="features" class="features-area pt-110 pb-115">
+                <div class="features-shape d-none d-sm-block" data-background=" img/bg/f_shape.png"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                            <div class="section__title text-center mb-75">
+                                <span class="wow fadeInUp" data-wow-delay="0.2s">Features</span>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">Results</h2>
+                                <p class="wow fadeInUp" id="res1" data-wow-delay="0.6s">Welcome to Results!</p>
+								<p class="wow fadeInUp" id="res2"></p>
+								<p class="wow fadeInUp"id="sl1"></p>
+								<p class="wow fadeInUp" id="sl2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="feature__nav">
+                                <ul class="nav nav-tabs feature__nav-tab" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                                            aria-selected="true"><i class="far fa-futbol"></i>Team One</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                                            aria-selected="false"><i class="far fa-futbol"></i>Team Two</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                                            aria-selected="false"><i class="far fa-chart-bar"></i>Scores</a>
+                                    </li>
+                                </ul>
+								
+                                <div class="tab-content feature__tab-content" id="myTabContent">
+                                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="single__features">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-img">
+                                                        <img src=" img/features/f_01.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-content">
+                                                        <div class="f-title">
+                                                            <h2>Team 1:</h2>
+                                                            <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. <b>Please, enter the names of players, by entering.</b></p>
+															<p>After completing names, please go next step - "Team 2".</p>
+                                                        </div>
+                                                        <div class="inner__features">
+															<textarea rows=11 id="team1"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									
+                                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="single__features">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-img wow fadeInLeft" data-wow-delay="0.2s">
+                                                        <img src=" img/features/f_01.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-content">
+                                                        <div class="f-title">
+                                                            <h2>Team 2:</h2>
+                                                            <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. <b>Please, enter the names of players, by entering.</b></p>
+															<p>After completing names, please go next step - "Scores".</p>
+                                                        </div>
+                                                        <div class="inner__features">
+															<textarea rows=11 id="team2"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <div class="single__features">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-img">
+                                                        <img src=" img/features/f_01.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="single__features-content">
+                                                        <div class="f-title">
+                                                            <h2>Scores</h2>
+                                                            <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal.</p>
+                                                        </div>
+                                                        <div class="inner__features">
+                                                            <div class="inner__features-content">
+                                                                <h5>Score for team one:</h5>
+                                                                <input type="number" id="result1" value=0 max=7>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inner__features">
+                                                            <div class="inner__features-content">
+                                                                <h5>Score for team two:</h5>
+                                                                <input type="number" id="result2" value=0 max=7>
+                                                            </div>
+                                                        </div>
+														<button id="getResult" class="buttond">Get Result</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- features-area-end -->
+			
+			
+            <!-- work-process-area -->
+            <section id="work" class="work-process grey-bg pt-110 pb-85">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                            <div class="section__title text-center mb-75">
+                                <span class="wow fadeInUp" data-wow-delay="0.2s">how work</span>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">How It Work?</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="single__process-icon mb-40">
+                                    <img src=" img/icon/work_01.png" alt="">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="single__process-content">
+                                    <div class="number">01</div>
+                                    <h4>Write the names of players</h4>
+                                    <p>In textarea, type 11 names for each team.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="single__process-icon mb-40">
+                                    <img src=" img/icon/work_02.png" alt="">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="single__process-content">
+                                    <div class="number">02</div>
+                                    <h4>Write the scores</h4>
+                                    <p>In input, type the score for each team, it should not be more than 7 scores.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single__process text-center mb-30 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="single__process-icon mb-40">
+                                    <img src=" img/icon/work_03.png" alt="">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="single__process-content">
+                                    <div class="number">03</div>
+                                    <h4>Get results</h4>
+                                    <p>Finally, get the answer of your match.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>      
+        </main>
+		
+        <footer class="footer__bg pt-105" data-background=" img/bg/footer_bg.jpg">
+            <div class="container">
+			<center>
+                <div class="row mb-70">
+                    <div class="col-xl">
+                        <div class="footer__widget mb-30">
+                            <div class="footer__widget-title mb-30">
+                                <h4>Author</h4>
+                            </div>
+                            <div class="footer__widget-link">
+                                <ul>
+                                    <li>The author of project:</li>
+                                    <li><a href="">NMAM</a></li>
+                                    <li><a href="tel:87081110011">8 708 111 00 11</a></li>
+                                    <li><a href="tel:87011983035">8 701 198 30 35</a></li>
+                                    <li><a href="tel:87074442902">8 707 444 29 02</a></li>
+                                    <li><a href="tel:87756253068">8 775 625 30 68</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl">
+                        <div class="footer__widget mb-30">
+                            <div class="footer__widget-title mb-30">
+                                <h4>University</h4>
+                            </div>
+                            <div class="footer__widget-link">
+                                <ul>
+                                    <li>The smart university of Kazakhstan:</li>
+                                    <li><a href="https://astanait.edu.kz">Astana IT University</a></li>
+                                    <li><a href="tel:87172645710">8 7172 64 57 10</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-wrap">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="copyright__text pt-35 pb-35 text-center">
+                                <p>Copyright All Right Reserved By NMAM - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				</center>
+            </div>
+        </footer>
+
+        <script src=" js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src=" js/vendor/jquery-1.12.4.min.js"></script>
+		
+        <script src=" js/bootstrap.min.js"></script>
+        <script src=" js/one-page-nav-min.js"></script>
+        <script src=" js/slick.min.js"></script>
+        <script src=" js/wow.min.js"></script>
+        <script src=" js/plugins.js"></script>
+        <script src=" js/main.js"></script>
+		<script src=" js/results.js"></script>
+    </body>
+</html>
